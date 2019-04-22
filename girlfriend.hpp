@@ -131,9 +131,21 @@ class girlfriend
       void remove_exboyfriend(string name); // may be some ex-boyfriend become current boyfriend again, I'm afraid
       void set_boyfriend(string boyfriend);
 
-      // other
+      // behavior
+      void sleeping();
+      void wake_up();
+      void shopping();
+      void cooking();
+      void washing();
+      void playing();
+      void chatting();
+      void watching_TV();
+      void reading_books();
+      void eating();
+
+      // utility
       void game_over();
-      void start_counter();  // start the time
+      void start_game();  // start the time
 };
 
 #endif
